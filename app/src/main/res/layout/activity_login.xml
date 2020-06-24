@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/round"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:layout_marginBottom="@dimen/round"/>
+    <EditText
+        android:id="@+id/usernameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edittext"
+        android:layout_marginBottom="@dimen/round"
+        android:hint="@string/username"
+        android:textColorHint="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/passwdLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/round"
+        android:inputType="textPassword"
+        android:background="@drawable/shape_edittext"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:background="@drawable/shape_button"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>

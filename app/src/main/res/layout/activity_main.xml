@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/round"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Light Remote"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:typeface="monospace"
+        android:textColor="#000"
+        android:layout_marginBottom="@dimen/round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Light Remote"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:typeface="monospace"
+        android:textColor="#000"
+        android:layout_marginBottom="@dimen/round"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edittext"
+        android:layout_marginBottom="@dimen/round"
+        android:hint="@string/username"
+
+        android:textColorHint="@color/colorAccent"/>
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_toggle"
+        android:textOn=""
+        android:textOff=""
+        android:textColor="#000"
+        android:drawableStart="@drawable/ic_switch"
+        android:checked="false"
+        android:layout_marginTop="@dimen/round"
+        android:layout_marginBottom="@dimen/round"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

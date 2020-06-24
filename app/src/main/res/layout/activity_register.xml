@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/round"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:layout_marginBottom="@dimen/round"/>
+    <EditText
+        android:id="@+id/usernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edittext"
+        android:layout_marginBottom="@dimen/round"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:typeface="monospace"
+        android:textColorHint="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/passwdRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/round"
+        android:background="@drawable/shape_edittext"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:typeface="monospace"
+        android:textColorHint="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edittext"
+        android:layout_marginBottom="@dimen/round"
+        android:hint="admin@mail.com"
+        android:inputType="textWebEmailAddress"
+        android:typeface="monospace"
+        android:textColorHint="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/phoneRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/round"
+        android:inputType="phone"
+        android:background="@drawable/shape_edittext"
+        android:hint="Phone Number"
+        android:typeface="monospace"
+        android:textColorHint="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:background="@drawable/shape_button"
+        android:textColor="#FFF"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:onClick="onRegister"/>
+
+
+</LinearLayout>
